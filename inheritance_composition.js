@@ -45,5 +45,5 @@ mixin(Person.prototype, canEat, canWalk)
 
 var person = new Person("Delower")
 person.Walk()
-
+person.Eat()
 
