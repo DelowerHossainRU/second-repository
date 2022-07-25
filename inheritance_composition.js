@@ -41,9 +41,9 @@ function Person(name){
 // p1.Eat()
 // console.log(p1)
 
-mixin(Person.prototype, canEat, canWalk)
+mixin(Person.prototype, canEat, canWalk, canSleep)
 
 var person = new Person("Delower")
 person.Walk()
 person.Eat()
-
+person.Sleep()
