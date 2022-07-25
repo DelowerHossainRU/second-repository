@@ -47,3 +47,14 @@ var person = new Person("Delower")
 person.Walk()
 person.Eat()
 person.Sleep()
+
+
+function Catfish(name){
+    this.name = name
+}
+
+mixin(Catfish.prototype, canEat, canSwim, canSleep)
+
+var catfish = new Catfish(catfish)
+
+catfish.Eat()
